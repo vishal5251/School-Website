@@ -26,4 +26,4 @@ The Main points that need to be provided in your School Website as per CBSE Circ
 
 Some School Website Repositories :- https://github.com/MountSionCBSSecondary/SchoolWebsite.git
 
-Home Page Design :- http://rcsindia.co.in/newcbse1-2/index1.html
+
