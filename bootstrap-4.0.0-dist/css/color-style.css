@@ -1,0 +1,208 @@
+.style-switch {
+    opacity: 1;
+    position: fixed;
+    z-index: 9999;
+    top: 135px;
+    -webkit-backface-visibility: hidden;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.style-switch .fa{
+    font-size: 20px;
+}
+
+.style-switch.left {
+    left: -190px;
+}
+
+.style-switch.right {
+    right: -190px;
+}
+
+.style-switch .switched-options {
+    position: relative;
+    width: 190px;
+    text-align: left;
+    padding: 12px;
+}
+
+.style-switch .config-title {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 14px;
+}
+
+
+
+.style-switch ul .p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+.style-switch ul li:hover {
+    cursor: pointer;
+}
+
+.style-switch ul li a {
+    font-size: 14px;
+    color: #808080;
+    letter-spacing: 0.1px;
+}
+
+.style-switch ul li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.style-switch ul li a.buy-this-theme {
+    display: inline-block;
+    margin-top: 5px;
+    color: #111;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.style-switch ul.styles {
+    margin-top: 15px;
+}
+
+.style-switch ul.styles li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.style-switch ul.styles li.no-margin {
+    margin-right: 0px;
+}
+
+.style-switch ul.styles li .color {
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 2px;
+}
+.style-switch ul.styles li .color:hover{
+    opacity: .9;
+}
+.style-switch ul.styles li .amber {
+    background: #FFC107;
+}
+
+.style-switch ul.styles li .deep-purple {
+    background: #7e6df6;
+}
+
+.style-switch ul.styles li .blue{
+    background: #0059b1;
+}
+
+.style-switch ul.styles li .cyan {
+    background: #00BCD4;
+}
+
+.style-switch ul.styles li .deep-orange {
+    background: #FF5722;
+}
+
+.style-switch ul.styles li .deep-purle {
+    background: #673AB7;
+}
+
+.style-switch ul.styles li .green {
+    background: #27ae61;
+}
+
+.style-switch ul.styles li .indigo {
+    background: #3F51B5;
+}
+
+.style-switch ul.styles li .light-blue {
+    background: #03A9F4;
+}
+
+.style-switch ul.styles li .light-green {
+    background: #8BC34A;
+}
+
+.style-switch ul.styles li .lime {
+    background: #CDDC39;
+}
+
+.style-switch ul.styles li .orange {
+    background: #FF9800;
+}
+
+.style-switch ul.styles li .palette {
+    background: #795548;
+}
+
+.style-switch ul.styles li .pink {
+    background: #E91E63;
+}
+
+.style-switch ul.styles li .purple {
+    background: #9C27B0;
+}
+
+.style-switch ul.styles li .default {
+    background: #0095eb;
+}
+
+.style-switch ul.styles li .teal {
+    background: #009688;
+}
+
+.style-switch ul.styles li .lime {
+    background: #9dd100;
+}
+.style-switch ul.styles li .red {
+    background: #F44336;
+}
+
+.style-switch .one-page-link{
+font-size: 18px;
+
+padding: 10px 0;
+display: block;
+}
+.style-switch.right .switch-button {
+    position: absolute;
+    top: 0;
+    left: -48px;
+    display: inline-block;
+    background: #fff;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.style-switch .switch-button:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.style-switch p {
+    color: #000;
+}
+.preset-title{
+    margin: 8px 0 0 0;
+}
+
+.switch-btn{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.switch-btn li a:hover{
+  color: #000000;
+}
